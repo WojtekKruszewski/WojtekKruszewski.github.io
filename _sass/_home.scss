@@ -1,0 +1,74 @@
+body.home {
+  header {
+    h1 { font-size: 50px; line-height: 150%; margin: 0.5em 0 0.5em 0;}
+    h2 { font-size: 42px; margin: 0.0 0 1em 0; }
+    small { font-size: 13px; font-family: "cooper-black-std","Georgia",serif; }
+  }
+
+  text-align: center;
+
+  > div {
+    margin: 3em auto;
+  }
+
+  .text p {
+    margin: 5px auto;
+    width: 400px;
+    text-align: justify;
+  }
+
+  p { margin: 0 0 0.5em 0; }
+
+  #recommendations {
+    width: 780px;
+  }
+
+  #recommendations .featured {
+    display: table;
+    border-spacing: 2em;
+    height: 200px;
+  }
+
+  #recommendations .featured li {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1em;
+    min-height: 190px;
+  }
+
+  #recommendations .featured li p {
+    text-align: justify;
+    margin: 0;
+  }
+  #recommendations .featured li q, #recommendations .featured li blockquote {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  #recommendations .featured li blockquote {
+    text-align: justify;
+  }
+  #recommendations .featured li .author {
+    margin-top: -5px;
+    font-size: 11px;
+    display: block;
+    text-align: right;
+  }
+
+  #shootzilla
+    figure {
+      width: 480px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+  #noise {
+    margin-top: 240px;
+    ul li {
+      display: inline-block;
+    }
+  }
+}

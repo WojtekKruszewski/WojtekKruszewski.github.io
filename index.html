@@ -1,23 +1,96 @@
 ---
 layout: default
+body_class: home
 ---
 
-<div class="home">
+<header>
+  <h1>Wojtek Kruszewski</h1>
+  <h2>builds web applications</h2>
+  <small> SaaS ★ Rapid Prototyping ★ Maintenance ★ Subscriptions ★ Integrations </small>
+</header>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+<div id='recommendations'>
+  <ul class='featured'>
+    <li id='recommendation-inputhealth'>
+      <a href='http://InputHealth.com/'>
+        <img alt='InputHealth' src='/images/logo-inputhealth.png'>
+      </a>
+      <blockquote>“Wojtek is an excellent developer with great work ethic, integrity and communication skills.”</blockquote>
+      <span class='author'> Damon Ramsey, <br> President of <a href='http://healthism.com'>Healthism</a> </span>
+    </li>
+    <li id='recommendation-loco2'>
+      <a href='http://loco2.co.uk'>
+        <img alt='Loco2' src='/images/logo-loco2.png'>
+      </a>
+      <blockquote>“He is definitely an above average developer, capable of solving problems independently.”</blockquote>
+      <span class='author'> Jamie Andrews, <br> Managing Director of <a href='http://loco2.co.uk'>Loco2</a>. </span>
+    </li>
+    <li id='recommendation-sage'>
+      <a href='http://sagenorthamerica.com/'>
+        <img alt='Sage North America' src='/images/logo-sage.png'>
+      </a>
+      <blockquote>
+        “Great all around developer. Wojtek is very detailed and technically sound”
+      </blockquote>
+      <span class='author'> Richard Zhou, <br> <a href='http://www.sagenorthamerica.com/'>Sage Software North America</a> </span>
+    </li>
+    <li id='recommendation-esther'>
+      <a href='http://www.shootzilla.com'>
+        <img alt='ShootZilla' src='/images/logo-shootzilla.png'>
+      </a>
+      <blockquote>
+        “I absolutely loved working with Wojtek! He kept me in the loop every day and every hour of the code he was working on. He always has the end user in mind when creating gorgeous apps!”
+      </blockquote>
+      <span class='author'> Esther de Boer, <br> founder of <a href='/shootzilla'>ShootZilla</a> </span>
+    </li>
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <a href='http://www.linkedin.com/in/wkruszewski' target='_blank'>» more recommendations on LinkedIn</a>
+  <a href='https://docs.google.com/open?id=0Bw3md9RnxwSpTFdRMTRlaGJRLWljdTVCQnY0dFRzUQ' target='_blank'>» recommendation letter</a>
+  <a href='http://odesk.oxos.pl' target='_blank'> » oDesk reputation <small>(rating 4.84/5, 15 projects, 3760 hours)</small> </a>
+</div>
+<div class='jumbotron' id='shootzilla'>
+  <h2>Case study</h2>
+  <figure>
+    <a href='/shootzilla/'>
+      <img src='/images/shootzilla-mockups.png'>
+    </a>
+    <figcaption>
+      <a href='/shootzilla/'>ShootZilla</a> is startup that helps remove the anxiety from photography business.
+      <br> Read
+      <a href='/shootzilla/'>case&nbsp;study</a> to learn how we approached development.
+    </figcaption>
+  </figure>
+</div>
+<div id='call_to_action'>
+  <h2>Hire me</h2>
+  <p>
+    <a class='btn btn-success btn-lg' href='mailto:wojtek@kruszewski.com?subject=Hey I wanted to tell you about my project'>Drop me a line about your project</a>
+    <br> and we'll quickly figure out if we're good fit.
+  </p>
+</div>
+<div id='noise'>
+  <p>
+    <a href='mailto:wojtek@kruszewski.com' rel='me'>
+      <img alt='Email' src='images/i_email.png'>
+    </a>
+    <a href='http://twitter.com/wojt_eu' rel='me'>
+      <img alt='Twitter' src='images/i_twitter.png'>
+    </a>
+    <a href='http://stackexchange.com/users/51463/wojtek-kruszewski?tab=accounts' rel='me'>
+      <img alt='Stackoverlflow' src='images/i_stackoverflow.png'>
+    </a>
+    <a href='http://www.facebook.com/wojtek.kruszewski' rel='me'>
+      <img alt='Facebook' src='images/i_fb.png'>
+    </a>
+    <a href='http://github.com/WojtekKruszewski' rel='me'>
+      <img alt='GitHub' src='images/i_github.png'>
+    </a>
+    <a href='http://www.quora.com/Wojtek-Kruszewski' rel='me'>
+      <img alt='Quora' src='images/i_quora.png'>
+    </a>
+    <a href='http://www.linkedin.com/in/wkruszewski' rel='me'>
+      <img alt='GitHub' src='images/i_linkedin.png'>
+    </a>
+    <a href='https://alpha.app.net/wojtekkruszewski' rel='me' style='display: none;'>https://alpha.app.net/wojtekkruszewski</a>
+  </p>
 </div>

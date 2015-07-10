@@ -1,0 +1,64 @@
+@media (min-width: 768px) {
+  body.home {
+    header {
+      h1 { font-size: 50px; }
+      h2 { font-size: 42px; }
+      ul#skills{
+        list-style: none;
+        li {
+          font-size: 13px;
+          font-family: "cooper-black-std","Georgia",serif; 
+          display:inline-block;
+          &:before { content: " ★ " }
+          &:first-child:before { content: "" }
+        }
+      }
+    }
+  }
+
+  #recommendations {
+    width: 780px;
+
+    ul#featured {
+      display: table;
+      border-spacing: 2em;
+      height: 200px;
+
+      > li {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 1em;
+        min-height: 190px;
+        p {
+          text-align: justify;
+          margin: 0;
+        }
+        q, blockquote {
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+        blockquote {
+          text-align: justify;
+        }
+        .author {
+          margin-top: -5px;
+          font-size: 11px;
+          display: block;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  #shootzilla {
+    figure {
+      width: 480px;
+    }
+  }
+
+
+}

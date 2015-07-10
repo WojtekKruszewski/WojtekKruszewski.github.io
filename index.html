@@ -4,13 +4,22 @@ body_class: home
 ---
 
 <header>
+  <div class="container">
   <h1>Wojtek Kruszewski</h1>
   <h2>builds web applications</h2>
-  <small> SaaS ★ Rapid Prototyping ★ Maintenance ★ Subscriptions ★ Integrations </small>
+  <ul id="skills">
+    <li>SaaS</li>
+    <li>Rapid Prototyping </li>
+    <li>Maintenance </li>
+    <li>Subscriptions </li>
+    <li>Integrations</li>
+  </small>
+  </div>
 </header>
 
+<div class="container">
 <div id='recommendations'>
-  <ul class='featured'>
+  <ul id="featured">
     <li id='recommendation-inputhealth'>
       <a href='http://InputHealth.com/'>
         <img alt='InputHealth' src='/images/logo-inputhealth.png'>
@@ -44,11 +53,14 @@ body_class: home
       <span class='author'> Esther de Boer, <br> founder of <a href='/shootzilla'>ShootZilla</a> </span>
     </li>
   </ul>
-  <a href='http://www.linkedin.com/in/wkruszewski' target='_blank'>» more recommendations on LinkedIn</a>
-  <a href='https://docs.google.com/open?id=0Bw3md9RnxwSpTFdRMTRlaGJRLWljdTVCQnY0dFRzUQ' target='_blank'>» recommendation letter</a>
-  <a href='http://odesk.oxos.pl' target='_blank'> » oDesk reputation <small>(rating 4.84/5, 15 projects, 3760 hours)</small> </a>
+  <a href='http://www.linkedin.com/in/wkruszewski' target='_blank' class="text-nowrap">» more recommendations on LinkedIn</a>
+  <a href='https://docs.google.com/open?id=0Bw3md9RnxwSpTFdRMTRlaGJRLWljdTVCQnY0dFRzUQ' target='_blank' class="text-nowrap">» recommendation letter</a>
+  <a href='http://odesk.oxos.pl' target='_blank' class="text-nowrap"> » oDesk reputation <small>(rating 4.84/5, 15 projects, 3760 hours)</small> </a>
 </div>
+</div>
+
 <div class='jumbotron' id='shootzilla'>
+  <div class="container">
   <h2>Case study</h2>
   <figure>
     <a href='/shootzilla/'>
@@ -60,7 +72,10 @@ body_class: home
       <a href='/shootzilla/'>case&nbsp;study</a> to learn how we approached development.
     </figcaption>
   </figure>
+  </div>
 </div>
+
+<div class="container">
 <div id='call_to_action'>
   <h2>Hire me</h2>
   <p>
@@ -93,4 +108,5 @@ body_class: home
     </a>
     <a href='https://alpha.app.net/wojtekkruszewski' rel='me' style='display: none;'>https://alpha.app.net/wojtekkruszewski</a>
   </p>
+</div>
 </div>

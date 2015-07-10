@@ -9,4 +9,20 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <link href='http://www.myopenid.com/server' rel='openid.server'>
+  <link href='http://wojciech-kruszewski.myopenid.com/' rel='openid.delegate'>
+  <link href='http://wojciech-kruszewski.myopenid.com' rel='openid2.local_id'>
+  <link href='http://www.myopenid.com/server' rel='openid2.provider'>
+  <meta content='http://www.myopenid.com/xrds?username=wojciech-kruszewski.myopenid.com' http-equiv='X-XRDS-Location'>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-5782625-10', 'auto');
+    ga('require', 'linkid', 'linkid.js'); // "Enhanced Link Attribution" https://support.google.com/analytics/answer/2558867?hl=en&utm_id=ad
+    ga('send', 'pageview');
+  </script>
 </head>

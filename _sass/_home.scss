@@ -58,7 +58,13 @@ body.home {
     }
   }
 
-  #shootzilla {
+  #portfolio {
+    padding-top:    $jumbotron-padding;
+    padding-bottom: $jumbotron-padding;
+    margin-bottom: $jumbotron-padding;
+    color: $jumbotron-color;
+    background-color: $jumbotron-bg;
+
     figure {
       margin: 0 auto;
       text-align: center;
@@ -75,4 +81,6 @@ body.home {
       display: inline-block;
     }
   }
+
+
 }

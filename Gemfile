@@ -2,6 +2,7 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
+gem 'foreman'
 gem 'github-pages'
 gem 'guard'
 gem 'guard-livereload'

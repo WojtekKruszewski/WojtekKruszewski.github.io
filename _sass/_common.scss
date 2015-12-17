@@ -12,7 +12,7 @@ q:before, q:after, blockquote:before, blockquote:after {
 body {
   background: #e8e7e3 url(../images/body-bg.png);
   font-family: Arial, Helvetica;
-  font-size: 12px;
+  font-size: 14px;
   color: #2e313f;
   line-height: 150%;
 }
@@ -29,4 +29,9 @@ footer {
 footer .business-address {
   color: #777;
   font-size: 10px;
+}
+
+.back-home {
+  text-align: center;
+  margin: 3em 0;
 }

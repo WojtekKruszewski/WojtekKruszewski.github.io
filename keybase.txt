@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/wojtekkruszewski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.kruszewski.com
+  * I am wojtekkruszewski (https://keybase.io/wojtekkruszewski) on keybase.
+  * I have a public key ASCwm0EXrGkwTK4f7JpnXHWAfJYRt84OG10nK1e0lQW3ZAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b09b4117ac69304cae1fec9a675c75807c9611b7ce0e1b5d272b57b49505b7640a",
+      "host": "keybase.io",
+      "kid": "0120b09b4117ac69304cae1fec9a675c75807c9611b7ce0e1b5d272b57b49505b7640a",
+      "uid": "13c9b14584ae6abc31ff5f46b3692a19",
+      "username": "wojtekkruszewski"
+    },
+    "merkle_root": {
+      "ctime": 1501145931,
+      "hash": "40bccb1a8f328bd83b97b80b570748144f1179083c71337399c7c012d915154d0540c12701ff0ebdec3f8315cae4a5238e6126be88448b9fd184389195da80e8",
+      "hash_meta": "9e30041e397e1886a4e71e49966936ec52dfeb08a6cfc46e6cd0eb3a3f12748e",
+      "seqno": 1284280
+    },
+    "service": {
+      "hostname": "www.kruszewski.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.25"
+  },
+  "ctime": 1501145940,
+  "expire_in": 504576000,
+  "prev": "1296b3f53e84d1de585f1a630bb10dd6ec1a6ad1b53021de6d7b555524489b17",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsJtBF6xpMEyuH+yaZ1x1gHyWEbfODhtdJytXtJUFt2QKp3BheWxvYWTFA1J7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjA5YjQxMTdhYzY5MzA0Y2FlMWZlYzlhNjc1Yzc1ODA3Yzk2MTFiN2NlMGUxYjVkMjcyYjU3YjQ5NTA1Yjc2NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjA5YjQxMTdhYzY5MzA0Y2FlMWZlYzlhNjc1Yzc1ODA3Yzk2MTFiN2NlMGUxYjVkMjcyYjU3YjQ5NTA1Yjc2NDBhIiwidWlkIjoiMTNjOWIxNDU4NGFlNmFiYzMxZmY1ZjQ2YjM2OTJhMTkiLCJ1c2VybmFtZSI6IndvanRla2tydXN6ZXdza2kifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDExNDU5MzEsImhhc2giOiI0MGJjY2IxYThmMzI4YmQ4M2I5N2I4MGI1NzA3NDgxNDRmMTE3OTA4M2M3MTMzNzM5OWM3YzAxMmQ5MTUxNTRkMDU0MGMxMjcwMWZmMGViZGVjM2Y4MzE1Y2FlNGE1MjM4ZTYxMjZiZTg4NDQ4YjlmZDE4NDM4OTE5NWRhODBlOCIsImhhc2hfbWV0YSI6IjllMzAwNDFlMzk3ZTE4ODZhNGU3MWU0OTk2NjkzNmVjNTJkZmViMDhhNmNmYzQ2ZTZjZDBlYjNhM2YxMjc0OGUiLCJzZXFubyI6MTI4NDI4MH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cua3J1c3pld3NraS5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI1In0sImN0aW1lIjoxNTAxMTQ1OTQwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjEyOTZiM2Y1M2U4NGQxZGU1ODVmMWE2MzBiYjEwZGQ2ZWMxYTZhZDFiNTMwMjFkZTZkN2I1NTU1MjQ0ODliMTciLCJzZXFubyI6NDYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAhMTWrnIB+JlEGrWstusstwnkI8ESA44AVnzqf05Trwt8AhC7sLBqBBiJOneqY12oJBio27retWAH6FWeLvVxA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINibpiXoam7iRfbxAhQN0sF8AObfcOEU2I9o2b7H6qU2o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wojtekkruszewski
+
+==================================================================

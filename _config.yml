@@ -4,8 +4,8 @@ description: >
   Wojtek Kruszewski builds web applications – SaaS ★ Maintenance ★ Subscriptions ★ Integrations
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.kruszewski.com"
-twitter_username: wojt_eu
-github_username:  WojtekKruszewski
+twitter_username: wkrsz
+github_username:  wkrsz
 
 # Build settings
 markdown: kramdown
